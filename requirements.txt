@@ -1,6 +1,4 @@
-cv2-python
+Flask
 numpy
+opencv-python
 pandas
-datetime
-flask
-os

@@ -2,3 +2,4 @@ Flask
 numpy
 opencv-python
 pandas
+opencv-contrib-python

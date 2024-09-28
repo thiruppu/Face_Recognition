@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load the face detection model and recognizer
 face_detect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture('http://192.168.1.3.8080')
 rec = cv2.face.LBPHFaceRecognizer_create()
 rec.read("recognizer/trainingData.yml")
 
